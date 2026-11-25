@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Env files hold secrets (e.g. BUILDER_PRIVATE_KEY); never commit them
+.env
+.env.*
+!.env.example
